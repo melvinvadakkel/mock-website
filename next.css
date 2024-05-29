@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding-right: 30px;
+
+}
+
+.navbar1 {
+    color: orangered;
+    padding-left: 50px;
+    font-size: 50px;
+    font-style: oblique;
+    padding-top: 30px;
+
+}
+
+.navbar2 {
+    display: flex;
+    padding-left: 50px;
+    color: white;
+    gap: 50px;
+    align-items: end;
+
+}
+
+.main {
+    font-size: 50px;
+    padding-left: 50px;
+    color: white;
+
+}
+
+.image1 {
+    width: 240px;
+}
+
+.image2 {
+    width: 230px;
+}
+
+.stop {
+    display: flex;
+    color: white;
+    background-color: darkblue;
+
+    flex-direction: column;
+    height: 200px;
+
+}
+
+.stop>h2 {
+    text-align: center;
+}
+
+.add {
+
+    text-align: center;
+
+}
+
+.move {
+    height: 250px;
+    ;
+}
+
+.scroll {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: larger;
+}
+
+.scroll>marquee {
+
+
+
+    display: flex;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.scroll>marquee>p {
+    display: inline;
+    margin-left: 50px;
+}
+
+.works {
+    padding: 30px;
+    background-color: purple;
+
+}
+
+.works1 {
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: crimson;
+    padding: 75px;
+    margin: 50px;
+
+
+}
+
+.option {
+    display: flex;
+    border: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.final {
+    background-color: darkblue;
+}
+
+.happy {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.reply1 {
+
+    display: inline-flex;
+
+
+
+}
+
+.pic1 {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 40px;
+
+}
+
+.text-block {
+    color: white;
+    font-size: 25px;
+
+    background-image: url('./images/bg-card.svg');
+    width: 500px;
+    height: 400px;
+    display: flex;
+
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+
+
+}
+
+.next {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    padding: 10px;
+    box-shadow: 0px 0px 50px 0px;
+    ;
+}
+
+.points {
+    color: white;
+    padding: 100px;
+
+}
+
+.end-1 {
+    display: flex;
+
+    padding-right: 100px;
+}
+
+.end-2 {}
+
+.end-2>img {
+    filter: invert(100);
+
+
+
+
+}
+
+.picture {
+
+    padding-left: 500px;
+}
+
+
+.ending {
+
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
